@@ -8,7 +8,7 @@ public class HomeController {
 
     @RequestMapping("/")
     public String showMyPage(){
-        System.out.println("Im in!");
-        return "main-menu";
+        System.out.println("Im in!"); //This is invoked
+        return "main-menu"; //This does not resolve to .jsp
     }
 }
